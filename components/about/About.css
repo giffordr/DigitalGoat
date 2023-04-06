@@ -1,0 +1,83 @@
+.App {
+  text-align: left;
+}
+.Body{
+	padding:15px;
+	background:linear-gradient(  -45deg, #F7F3F3, #FFFFFF);
+	background-size: 400% 400%;
+	animation: gradient 50s ease infinite;	
+}
+
+
+.App-logo {
+  height: 55vmin;
+  pointer-events: none;
+}
+
+.subHeader {
+  opacity: 0.8;
+
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: default;
+    overflow: hidden;
+    outline: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 50s linear;
+  }
+}
+
+.App-header {
+  background:linear-gradient( -45deg, #00966f,#c36417);
+  background-size: 400% 400%;
+  min-height: 90vmin;
+  animation: gradient 50s ease infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Centering {
+  font-family: fantasy;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-style:oblique;
+  font-size: calc(40px + 2vmin);
+  color:white;
+}
+
+a:link { text-decoration: none; }
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

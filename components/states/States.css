@@ -1,0 +1,95 @@
+.App {
+  text-align: left;
+	
+}
+
+.App-logo {
+  height: 55vmin;
+  pointer-events: none;
+}
+
+.subHeader {
+  opacity: 0.8;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+}
+.MuiTypography-root{
+	font-family: Bookman;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: default;
+    overflow: hidden;
+    outline: none;
+}
+a{
+	font-family: serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 60s linear;
+  }
+}
+
+.App-color {
+  background:linear-gradient( -45deg, #F7F3F3, #cddbe5); 
+  background-size: 400% 400%;
+  min-height: 90vmin;
+  animation: gradient 50s ease infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.App-footer{
+  background:linear-gradient( -45deg, #d8d8d8, #aacae0);
+  background-size: 400% 400%;
+  max-height: 90vmin;
+  animation: gradient 50s ease infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Centering {
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-style:oblique;
+  font-size: calc(40px + 2vmin);
+  color:white;
+}
+
+a:link { text-decoration: none; }
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

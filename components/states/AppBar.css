@@ -1,0 +1,10 @@
+.MuiTypography-root{
+	font-family: serif;
+}
+a{
+   font-family: Georgia; 
+}
+a:link {
+	font-family: Georgia;
+	text-decoration: none;
+}
